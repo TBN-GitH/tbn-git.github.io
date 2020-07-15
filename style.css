@@ -1,0 +1,155 @@
+/* フォント設定 */
+body {
+  font-family: "Avenir Next";
+}
+
+li{
+  /*リストの黒点を削除　*/
+    list-style: none;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* header部分の設定 */
+.header{
+  background-color:#e8f59a;
+  height:100px;
+}
+
+.header-list li {
+  /*横並びにする*/
+  float: left;
+  /*余白設定 */
+  padding:8px 25px;
+}
+
+.header-logo{
+  color:green;
+  font-size:36px;
+  /*リストとロゴを横並びにする*/
+  float:left;
+  padding:20px 40px;
+}
+
+.header h5{
+  padding:10px;
+  margin:10px;
+}
+
+.teapot{
+  width:70px;
+  height:40px;
+}
+/* header部分の設定 END*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* main部分の設定 */
+.main{
+  background-color:#fefff7;
+  height:1200px;
+  padding:20px 40px;
+}
+
+.main-copy-container h1{
+  font-size:60px;
+}
+
+/* spanタグでインライン要素にする*/
+.main-copy-container span{
+  color:#8edab8;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.container{
+  height: 200px;
+  font-family:serif;
+
+}
+
+.main-copy-container h3{
+  font-size:30px;
+}
+
+.describe {
+  padding-left:10px;
+  margin:20px;
+}
+
+
+.Menu-top{
+  /*ボーダーのスタイルを設定 */
+  border-bottom:2px groove #3cac91;
+  margin-top:80px;
+}
+
+.contents-item{
+  float:left;
+}
+
+
+.contents-item img{
+  height:120px;
+  width:150px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.contents-item p{
+  padding-left:30px;
+  padding-right:30px;
+  margin-top:0px;
+  font-size:15px;
+}
+
+.contact-form h3{
+  padding-top:100px;
+  border-bottom: 1px solid #3cac91;
+}
+/* main部分の設定 */
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/* 問い合わせフォーム */
+.contact-form{
+  font-family:serif;
+}
+
+.contact-form input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:20px;
+  border: 1px groove #e1f7ea;
+}
+
+.contact-submit{
+  background-color: #dee7ec;
+  color:#000000;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* footer部分の設定 */
+.footer{
+  background-color:#e8d3c1;
+  height:150px;
+  padding:20px 20px;
+}
+
+/* ロゴ部分 */
+.footer-logo{
+  font-size:30px;
+  float:left;
+}
+
+.footer-list{
+  float:right;
+}
+
+.footer-list li{
+  height:20px;
+  padding-bottom:10px;
+}
