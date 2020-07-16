@@ -63,7 +63,7 @@ li{
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .container{
-  height: 200px;
+  height: 250px;
   font-family:serif;
 
 }
@@ -90,8 +90,8 @@ li{
 
 
 .contents-item img{
-  height:120px;
-  width:150px;
+  height:180px;
+  width:200px;
   padding-left:30px;
   padding-right:30px;
 }
