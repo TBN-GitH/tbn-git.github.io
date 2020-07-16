@@ -47,7 +47,7 @@ li{
 /* main部分の設定 */
 .main{
   background-color:#fefff7;
-  height:1200px;
+  height:1800px;
   padding:20px 40px;
 }
 
@@ -63,7 +63,7 @@ li{
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .container{
-  height: 250px;
+  height: 650px;
   font-family:serif;
 
 }
@@ -90,8 +90,8 @@ li{
 
 
 .contents-item img{
-  height:180px;
-  width:200px;
+  height:200px;
+  width:250px;
   padding-left:30px;
   padding-right:30px;
 }
